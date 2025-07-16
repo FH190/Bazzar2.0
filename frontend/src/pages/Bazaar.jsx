@@ -6,11 +6,12 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'rec
 const ITEMS = [
   "BOOSTER_COOKIE",
   "ENCHANTED_DIAMOND",
-  "ENCHANTED_GOLD",
-  "ENCHANTED_IRON",
+  "ENCHANTED_GOLD_INGOT",
+  "ENCHANTED_IRON_INGOT",
   "ENCHANTED_EMERALD",
   // ...
 ];
+
 
 function calculateMarge(buy, sell) {
   return sell - buy;
